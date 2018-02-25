@@ -1,0 +1,47 @@
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-margin {
+    margin: 10px;
+}
+
+.form-center {
+    margin: auto!important;
+}
+
+.reminders {
+    width: 100%;
+}
+
+.reminder {
+    width: calc(100% - 10vw);
+    margin: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.reminder:hover {
+    background-color: #e2e2e2;
+    position: relative
+}
+
+.reminder > .delete-item {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+    display: none;
+}
+
+.reminder:hover > .delete-item {
+    display: block;
+}
+
+.btn-danger {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}

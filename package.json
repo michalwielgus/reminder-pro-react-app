@@ -1,0 +1,38 @@
+{
+  "name": "reminder-pro",
+  "version": "1.0.0",
+  "description": "Learning React",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "babel": {
+    "presets": "env"
+  },
+  "author": "Michał Mięculewicz-Wielgus",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "moment": "^2.20.1",
+    "react-bootstrap": "^0.32.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "request": "^2.83.0",
+    "sfcookies": "^1.0.2",
+    "spotify-refresh": "^2.0.3"
+  }
+}
